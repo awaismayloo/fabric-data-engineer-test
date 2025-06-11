@@ -1,0 +1,151 @@
+assignment_id,course_id,assignment-name,due_date
+A4001,C301,Data Engineering Fundamentals - Week 1 Task,2024-09-28
+A4002,C301,Data Engineering Fundamentals - Week 2 Task,2025-05-26
+A4003,C301,Data Engineering Fundamentals - Week 3 Task,2024-06-14
+A4004,C301,Data Engineering Fundamentals - Week 4 Task,2025-01-21
+A4005,C301,Data Engineering Fundamentals - Week 5 Task,2024-10-20
+A4006,C301,Data Engineering Fundamentals - Week 6 Task,2024-08-24
+A4007,C301,Data Engineering Fundamentals - Week 7 Task,2025-03-14
+A4008,C301,Data Engineering Fundamentals - Week 8 Task,2024-07-21
+A4009,C301,Data Engineering Fundamentals - Week 9 Task,2025-05-13
+A4010,C301,Data Engineering Fundamentals - Week 10 Task,2025-06-04
+Assignment_101,C302,SQL Joins Challenge,2025-03-11
+A4011,C302,Advanced Cloud Architecture - Week 2 Task,2024-08-03
+A4012,C302,Advanced Cloud Architecture - Week 3 Task,2025-03-18
+A4013,C302,Advanced Cloud Architecture - Week 4 Task,2025-06-03
+A4014,C302,Advanced Cloud Architecture - Week 5 Task,2025-03-04
+A4015,C302,Advanced Cloud Architecture - Week 6 Task,2025-02-19
+A4016,C302,Advanced Cloud Architecture - Week 7 Task,2024-12-12
+A4017,C302,Advanced Cloud Architecture - Week 8 Task,2024-12-28
+A4018,C302,Advanced Cloud Architecture - Week 9 Task,2024-11-19
+A4019,C302,Advanced Cloud Architecture - Week 10 Task,2024-09-08
+A4020,C303,Machine Learning Operations - Week 1 Task,2024-10-18
+A4021,C303,Machine Learning Operations - Week 2 Task,2025-02-22
+A4022,C303,Machine Learning Operations - Week 3 Task,2024-11-13
+A4023,C303,Machine Learning Operations - Week 4 Task,2025-01-28
+A4024,C303,Machine Learning Operations - Week 5 Task,2024-12-30
+A4025,C303,Machine Learning Operations - Week 6 Task,2025-04-14
+A4026,C303,Machine Learning Operations - Week 7 Task,2025-05-20
+A4027,C303,Machine Learning Operations - Week 8 Task,2025-04-08
+A4028,C303,Machine Learning Operations - Week 9 Task,2024-07-24
+A4029,C303,Machine Learning Operations - Week 10 Task,2024-12-27
+A4030,C304,Big Data Analytics - Week 1 Task,2025-04-03
+A4031,C304,Big Data Analytics - Week 2 Task,2025-04-04
+A4032,C304,Big Data Analytics - Week 3 Task,2024-08-22
+A4033,C304,Big Data Analytics - Week 4 Task,2025-04-18
+A4034,C304,Big Data Analytics - Week 5 Task,2024-08-27
+A4035,C304,Big Data Analytics - Week 6 Task,2025-04-30
+A4036,C304,Big Data Analytics - Week 7 Task,2025-04-25
+A4037,C304,Big Data Analytics - Week 8 Task,2025-01-09
+A4038,C304,Big Data Analytics - Week 9 Task,2024-11-30
+A4039,C304,Big Data Analytics - Week 10 Task,2025-02-28
+A4040,C305,Database Management Systems - Week 1 Task,2024-07-11
+A4041,C305,Database Management Systems - Week 2 Task,2024-08-01
+A4042,C305,Database Management Systems - Week 3 Task,2025-04-20
+A4043,C305,Database Management Systems - Week 4 Task,2024-11-21
+A4044,C305,Database Management Systems - Week 5 Task,2025-06-06
+A4045,C305,Database Management Systems - Week 6 Task,2024-12-15
+A4046,C305,Database Management Systems - Week 7 Task,2025-05-11
+A4047,C305,Database Management Systems - Week 8 Task,2025-02-22
+A4048,C305,Database Management Systems - Week 9 Task,2024-07-28
+A4049,C305,Database Management Systems - Week 10 Task,2025-05-20
+A4050,C306,Python for Data Science - Week 1 Task,2024-08-29
+A4051,C306,Python for Data Science - Week 2 Task,2024-07-31
+A4052,C306,Python for Data Science - Week 3 Task,2024-12-05
+A4053,C306,Python for Data Science - Week 4 Task,2024-06-24
+A4054,C306,Python for Data Science - Week 5 Task,2024-06-30
+A4055,C306,Python for Data Science - Week 6 Task,2024-06-15
+A4056,C306,Python for Data Science - Week 7 Task,2024-07-23
+A4057,C306,Python for Data Science - Week 8 Task,2024-10-12
+A4058,C306,Python for Data Science - Week 9 Task,2025-02-06
+A4059,C306,Python for Data Science - Week 10 Task,2024-09-10
+A4060,C307,Advanced SQL and Performance Tuning - Week 1 Task,2025-05-02
+A4061,C307,Advanced SQL and Performance Tuning - Week 2 Task,2025-05-19
+A4062,C307,Advanced SQL and Performance Tuning - Week 3 Task,2024-08-13
+A4063,C307,Advanced SQL and Performance Tuning - Week 4 Task,2025-02-06
+A4064,C307,Advanced SQL and Performance Tuning - Week 5 Task,2025-04-07
+A4065,C307,Advanced SQL and Performance Tuning - Week 6 Task,2025-03-09
+A4066,C307,Advanced SQL and Performance Tuning - Week 7 Task,2025-03-18
+A4067,C307,Advanced SQL and Performance Tuning - Week 8 Task,2024-08-04
+A4068,C307,Advanced SQL and Performance Tuning - Week 9 Task,2024-08-13
+A4069,C307,Advanced SQL and Performance Tuning - Week 10 Task,2024-09-04
+A4070,C308,Data Visualization with Power BI - Week 1 Task,2025-05-25
+A4071,C308,Data Visualization with Power BI - Week 2 Task,2025-02-24
+A4072,C308,Data Visualization with Power BI - Week 3 Task,2025-02-21
+A4073,C308,Data Visualization with Power BI - Week 4 Task,2025-03-25
+A4074,C308,Data Visualization with Power BI - Week 5 Task,2024-07-07
+A4075,C308,Data Visualization with Power BI - Week 6 Task,2024-10-12
+A4076,C308,Data Visualization with Power BI - Week 7 Task,2024-07-08
+A4077,C308,Data Visualization with Power BI - Week 8 Task,2025-02-22
+A4078,C308,Data Visualization with Power BI - Week 9 Task,2025-03-18
+A4079,C308,Data Visualization with Power BI - Week 10 Task,2025-05-31
+A4080,C309,Real-time Data Processing - Week 1 Task,2025-05-24
+A4081,C309,Real-time Data Processing - Week 2 Task,2025-02-15
+A4082,C309,Real-time Data Processing - Week 3 Task,2024-12-26
+A4083,C309,Real-time Data Processing - Week 4 Task,2024-11-05
+A4084,C309,Real-time Data Processing - Week 5 Task,2024-09-03
+A4085,C309,Real-time Data Processing - Week 6 Task,2024-12-03
+A4086,C309,Real-time Data Processing - Week 7 Task,2024-11-21
+A4087,C309,Real-time Data Processing - Week 8 Task,2024-07-04
+A4088,C309,Real-time Data Processing - Week 9 Task,2024-06-23
+A4089,C309,Real-time Data Processing - Week 10 Task,2025-01-03
+A4090,C310,Cybersecurity for Data Engineers - Week 1 Task,2024-11-23
+A4091,C310,Cybersecurity for Data Engineers - Week 2 Task,2024-12-09
+A4092,C310,Cybersecurity for Data Engineers - Week 3 Task,2025-05-19
+A4093,C310,Cybersecurity for Data Engineers - Week 4 Task,2025-05-03
+A4094,C310,Cybersecurity for Data Engineers - Week 5 Task,2025-01-14
+A4095,C310,Cybersecurity for Data Engineers - Week 6 Task,2024-08-31
+A4096,C310,Cybersecurity for Data Engineers - Week 7 Task,2024-06-19
+A4097,C310,Cybersecurity for Data Engineers - Week 8 Task,2025-04-11
+A4098,C310,Cybersecurity for Data Engineers - Week 9 Task,2024-09-02
+A4099,C310,Cybersecurity for Data Engineers - Week 10 Task,2025-03-06
+A4100,C311,Data Governance and Ethics - Week 1 Task,2025-05-01
+A4101,C311,Data Governance and Ethics - Week 2 Task,2024-07-23
+A4102,C311,Data Governance and Ethics - Week 3 Task,2024-12-24
+A4103,C311,Data Governance and Ethics - Week 4 Task,2025-06-07
+A4104,C311,Data Governance and Ethics - Week 5 Task,2025-01-28
+A4105,C311,Data Governance and Ethics - Week 6 Task,2024-11-23
+A4106,C311,Data Governance and Ethics - Week 7 Task,2025-01-20
+A4107,C311,Data Governance and Ethics - Week 8 Task,2024-06-22
+A4108,C311,Data Governance and Ethics - Week 9 Task,2024-10-12
+A4109,C311,Data Governance and Ethics - Week 10 Task,2025-01-11
+A4110,C312,NoSQL Databases - Week 1 Task,2024-11-02
+A4111,C312,NoSQL Databases - Week 2 Task,2024-10-12
+A4112,C312,NoSQL Databases - Week 3 Task,2025-05-08
+A4113,C312,NoSQL Databases - Week 4 Task,2025-02-11
+A4114,C312,NoSQL Databases - Week 5 Task,2024-12-11
+A4115,C312,NoSQL Databases - Week 6 Task,2024-12-15
+A4116,C312,NoSQL Databases - Week 7 Task,2024-11-16
+A4117,C312,NoSQL Databases - Week 8 Task,2025-03-29
+A4118,C312,NoSQL Databases - Week 9 Task,2025-01-26
+A4119,C312,NoSQL Databases - Week 10 Task,2025-04-11
+A4120,C313,Cloud Security - Week 1 Task,2025-03-23
+A4121,C313,Cloud Security - Week 2 Task,2025-02-28
+A4122,C313,Cloud Security - Week 3 Task,2025-01-25
+A4123,C313,Cloud Security - Week 4 Task,2024-11-06
+A4124,C313,Cloud Security - Week 5 Task,2025-04-07
+A4125,C313,Cloud Security - Week 6 Task,2024-08-21
+A4126,C313,Cloud Security - Week 7 Task,2025-02-20
+A4127,C313,Cloud Security - Week 8 Task,2025-01-06
+A4128,C313,Cloud Security - Week 9 Task,2024-07-03
+A4129,C313,Cloud Security - Week 10 Task,2024-09-29
+A4130,C314,DevOps for Machine Learning - Week 1 Task,2024-12-31
+A4131,C314,DevOps for Machine Learning - Week 2 Task,2024-12-31
+A4132,C314,DevOps for Machine Learning - Week 3 Task,2024-08-24
+A4133,C314,DevOps for Machine Learning - Week 4 Task,2025-05-29
+A4134,C314,DevOps for Machine Learning - Week 5 Task,2025-03-01
+A4135,C314,DevOps for Machine Learning - Week 6 Task,2024-11-22
+A4136,C314,DevOps for Machine Learning - Week 7 Task,2025-05-27
+A4137,C314,DevOps for Machine Learning - Week 8 Task,2024-06-16
+A4138,C314,DevOps for Machine Learning - Week 9 Task,2024-12-01
+A4139,C314,DevOps for Machine Learning - Week 10 Task,2024-11-05
+A4140,C315,Business Intelligence - Week 1 Task,2025-03-07
+A4141,C315,Business Intelligence - Week 2 Task,2024-07-21
+A4142,C315,Business Intelligence - Week 3 Task,2024-06-28
+A4143,C315,Business Intelligence - Week 4 Task,2024-12-21
+A4144,C315,Business Intelligence - Week 5 Task,2024-08-31
+A4145,C315,Business Intelligence - Week 6 Task,2024-10-10
+A4146,C315,Business Intelligence - Week 7 Task,2025-03-22
+A4147,C315,Business Intelligence - Week 8 Task,2025-01-02
+A4148,C315,Business Intelligence - Week 9 Task,2024-12-12
+A4149,C315,Business Intelligence - Week 10 Task,2024-08-22
