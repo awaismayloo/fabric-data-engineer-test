@@ -1,0 +1,99 @@
+------------------------
+Column Level Security
+-----------------------
+
+
+GRANT SELECT ON dbo.gold_students_submissions(full_nmae,student_id) to [email_address]
+
+Revoke SELECT on dbo.gold_students_submissions from [email_address]
+
+
+
+------------------------
+Data Masking at table columns
+-----------------------
+
+Alter table gold_students_submissions
+ALTER COLUMN full_name
+ADD MASKED WITH (FUNCTION='default()')
+
+ALTER table gold_students_submissions
+ALTER COLUMN email_address
+ADD MASKED WITH(FUNCTION='email()')
+
+GRANT UNMASK ON dbo.gold_students_submissions to [ahmad.asif@stylo.pk]
+REVOKE unmask on dbo.gold_students_submissions to [ahmad.asif@stylo.pk]
+
+
+
+------------------------
+Students who have not submitted “Assignment_101”
+-----------------------
+
+with students as 
+    (
+select 
+    student_id,
+    full_name,
+    email_address 
+from silver_students 
+    ),
+submissions as (
+select 
+    student_id 
+from silver_submissions
+where assignment_id='Assignment_101'
+    ) 
+select 
+    s.student_id as student_id,
+    full_name as full_name,
+    email_address as email_address  
+from students s 
+left join submissions sub
+on s.student_id=sub.student_id
+WHERE sub.student_id IS NULL
+
+
+
+------------------------
+Overdue assignment count per student
+-----------------------
+
+SELECT 
+        ss.student_id as student_id,
+        count(*) as Assignment_count
+    FROM silver_students_submissions ss
+    JOIN silver_assignment_courses ac
+        ON ss.assignment_id = ac.assignment_id
+    where ss.submission_date > ac.due_date
+    group by ss.student_id
+
+
+------------------------
+Submission rate per course (as a %)
+-----------------------
+
+WITH CourseStats AS (
+    SELECT 
+        c.course_id, 
+        c.course_name,
+        COUNT(DISTINCT a.assignment_id) AS total_assignments,
+        COUNT(DISTINCT sub.submission_id) AS total_submissions
+    FROM silver_courses c
+    LEFT JOIN silver_assingments a ON c.course_id = a.course_id
+    LEFT JOIN silver_submissions sub ON a.assignment_id = sub.assignment_id
+    GROUP BY c.course_id, c.course_name
+),
+StudentCount AS (
+    SELECT COUNT(DISTINCT student_id) AS total_students FROM silver_students
+)
+
+SELECT 
+    cs.course_id,
+    cs.course_name,
+    ROUND(
+        (cs.total_submissions * 1.0 / NULLIF(cs.total_assignments * sc.total_students, 0)) * 100,
+        2
+    ) AS submission_rate_percent
+FROM CourseStats cs
+CROSS JOIN StudentCount sc;
